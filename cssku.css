@@ -1,0 +1,93 @@
+/* Desain responsif dan menarik */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: hsla(35, 41%, 92%, 0.847);
+    background-color: #000000;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #b81f1f;
+    color: #cfbb82;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #f1c35e;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #e7d18a;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #e42b2b;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+/* Tambahkan animasi fadeInUp */
+.container {
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Tambahkan desain menarik lainnya */
+/* Misalnya: gambar latar belakang, warna teks, dan lain-lain */
+/* Mengatur latar belakang header */
+header {
+    background-color: #000000; /* Warna latar belakang */
+    background-image: url('1.jpg'); /* Gambar latar belakang */
+    background-repeat: no-repeat; /* Tidak mengulang gambar secara horizontal maupun vertikal */
+    background-size: cover; /* Mengisi elemen dengan gambar, memastikan seluruhnya tercakup */
+    background-position: center; /* Posisi gambar latar belakang */
+    color: #f7eded; /* Warna teks pada header */
+    padding: 20px; /* Padding di dalam header */
+  }
+  
